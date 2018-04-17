@@ -13,7 +13,11 @@
     ],
     "baseUrl": "src",
     "paths": {
+      "@shared/*": ["modules/shared/*"],
+      "@models/*": ["modules/shared/models/*"],
+      "@services/*": ["modules/shared/services/*"],
 
+      "@app/*": ["modules/app/*"]
     },
     "lib": [
       "es2017",
